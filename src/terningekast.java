@@ -24,7 +24,6 @@ class GenerateRandom {
             System.out.println("spiller 1 slår "+(terning11)+" og "+(terning12)+" spiller 1 score er "+(player1));
 
             System.out.println("spiller 2 slår "+(terning21)+" og "+(terning22)+" spiller 2 score er "+(player2));
-
         }
         //vinder
         if (player1<player2)
