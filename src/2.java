@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-class GenerateRandom {
+class GenerateRandom2 {
     public static void main( String args[] ) {
         Random rand = new Random(); //instance of random class
         Scanner scan = new Scanner(System.in);
