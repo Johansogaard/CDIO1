@@ -23,6 +23,10 @@ class TerningeSpil {
             //spiller score bliver  opdateret og printet
             player1=player1+terning11+terning12;
 
+            if (terning11+terning12==2) {
+                System.out.println("to 1'ere, tilbage til start");
+                player1 = 0;
+            }
 
             System.out.println("spiller 1 slår "+(terning11)+" og "+(terning12)+" spiller 1 score er "+(player1));
 
@@ -33,6 +37,11 @@ class TerningeSpil {
             terning21=rand.nextInt(terningmax)+terningmin;
             terning22=rand.nextInt(terningmax)+terningmin;
             player2=player2+terning21+terning22;
+
+            if (terning21+terning22==2) {
+                System.out.println("to 1'ere, tilbage til start");
+                player2 = 0;
+            }
 
             System.out.println("spiller 2 slår "+(terning21)+" og "+(terning22)+" spiller 2 score er "+(player2));
         }

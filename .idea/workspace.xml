@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b98fc8c-a079-4f50-b39e-d319e33234a3" name="Changes" comment="God start på prjokt, løsning af hovedopgave tror jeg">
-      <change afterPath="$PROJECT_DIR$/src/TerningSpil.java" afterDir="false" />
+    <list default="true" id="0b98fc8c-a079-4f50-b39e-d319e33234a3" name="Changes" comment="den færdige start opgave tænker jeg">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TerningeSpil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TerningeSpil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,16 +44,9 @@
       <recent name="$PROJECT_DIR$/kode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenerateRandom2">
+  <component name="RunManager" selected="Application.TerningeSpil">
     <configuration name="GenerateRandom2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GenerateRandom2" />
-      <module name="CDIO1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TerningSpil (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TerningSpil" />
       <module name="CDIO1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,13 +73,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TerningeSpil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TerningeSpil" />
+      <module name="CDIO1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TerningeSpil" />
         <item itemvalue="Application.GenerateRandom2" />
         <item itemvalue="Application.TerningSpil (4)" />
         <item itemvalue="Application.TerningSpil (3)" />
         <item itemvalue="Application.TerningSpil (2)" />
-        <item itemvalue="Application.TerningSpil (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -101,7 +100,7 @@
       <updated>1663589050656</updated>
       <workItem from="1663589056386" duration="1238000" />
       <workItem from="1663594347581" duration="641000" />
-      <workItem from="1663598507970" duration="4478000" />
+      <workItem from="1663598507970" duration="4892000" />
     </task>
     <task id="LOCAL-00001" summary="God start på prjokt, løsning af hovedopgave tror jeg">
       <created>1663594736771</created>
@@ -131,7 +130,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663598696057</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="den færdige start opgave tænker jeg">
+      <created>1663695084596</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663695084596</updated>
+    </task>
+    <task id="LOCAL-00006" summary="den færdige start opgave tænker jeg">
+      <created>1663695161088</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663695161088</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +163,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="God start på prjokt, løsning af hovedopgave tror jeg" />
-    <option name="LAST_COMMIT_MESSAGE" value="God start på prjokt, løsning af hovedopgave tror jeg" />
+    <MESSAGE value="den færdige start opgave tænker jeg" />
+    <option name="LAST_COMMIT_MESSAGE" value="den færdige start opgave tænker jeg" />
   </component>
 </project>
