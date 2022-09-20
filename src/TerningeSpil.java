@@ -7,7 +7,9 @@ class TerningeSpil {
         int terningmin = 1;
         int player1=0;
         int player2=0;
-        int terning11, terning12, terning21, terning22;
+        int terning1, terning2;
+        int cplayer=player1;
+
 
         System.out.println("Hej og velkommen til spil");
         System.out.println("klik enter for at starte, og fortsætte spillet");
@@ -18,61 +20,35 @@ class TerningeSpil {
                 try{System.in.read();}
                 catch(Exception e){}
                 //tilfældigt tal fra 0-5 + 1 = terning
-            terning11=rand.nextInt(terningmax)+terningmin;
-            terning12=rand.nextInt(terningmax)+terningmin;
+            terning1=rand.nextInt(terningmax)+terningmin;
+            terning2=rand.nextInt(terningmax)+terningmin;
             //spiller score bliver  opdateret og printet
-            player1=player1+terning11+terning12;
+            cplayer=cplayer+terning1+terning2;
 
-            System.out.println("spiller 1 slår "+(terning11)+" og "+(terning12)+" spiller 1 score er "+(player1));
+            System.out.println((cplayer)+" slår "+(terning1)+" og "+(terning2)+" spiller 1 score er "+(cplayer));
 
             //dobbelt 1
-            if (terning11==1 && terning12==1) {
+            if (terning1==1 && terning2==1) {
                 System.out.println("to 1'ere, tilbage til start");
                 player1 = 0;
             }
             //dobbelt ens
-            if (terning11==terning12) {
+            if (terning1==terning2) {
                 System.out.println("to ens, ekstra tur ");
                 try{System.in.read();}
                 catch(Exception e){}
 
                 //tilfældigt tal fra 0-5 + 1 = terning
-                terning11=rand.nextInt(terningmax)+terningmin;
-                terning12=rand.nextInt(terningmax)+terningmin;
+                terning1=rand.nextInt(terningmax)+terningmin;
+                terning2=rand.nextInt(terningmax)+terningmin;
                 //spiller score bliver  opdateret og printet
-                player1=player1+terning11+terning12;
-                System.out.println("spiller 1 slår "+(terning11)+" og "+(terning12)+" spiller 1 score er "+(player1));
+                cplayer=cplayer+terning1+terning2;
+                System.out.println((cplayer)+" slår "+(terning1)+" og "+(terning2)+" spiller 1 score er "+(cplayer));
             }
-
-
-
-
-
-            //samme igen
-            try{System.in.read();}
-            catch(Exception e){}
-
-            terning21=rand.nextInt(terningmax)+terningmin;
-            terning22=rand.nextInt(terningmax)+terningmin;
-            player2=player2+terning21+terning22;
-
-            System.out.println("spiller 2 slår "+(terning21)+" og "+(terning22)+" spiller 2 score er "+(player2));
-
-            if (terning21+terning22==2) {
-                System.out.println("to 1'ere, tilbage til start");
-                player2 = 0;
-            }
-            if (terning21==terning22) {
-                System.out.println("to ens, ekstra tur ");
-                try{System.in.read();}
-                catch(Exception e){}
-                //tilfældigt tal fra 0-5 + 1 = terning
-                terning21=rand.nextInt(terningmax)+terningmin;
-                terning22=rand.nextInt(terningmax)+terningmin;
-                //spiller score bliver  opdateret og printet
-                player2=player2+terning21+terning22;
-
-                System.out.println("spiller 2 slår "+(terning21)+" og "+(terning22)+" spiller 2 score er "+(player2));
+            if (cplayer==player1)
+                    cplayer=player2;
+            else
+                cplayer=player1;
             }
         }
 //vi kommer ud af spil løkken når en kommer over 40
