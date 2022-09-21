@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b98fc8c-a079-4f50-b39e-d319e33234a3" name="Changes" comment="dobbelt ens&#10;&#10;man kan kun slå dobbelt ens, 1 gang of man får ekstra tur ved dobbelt et. &#10;&#10;det begynder  at blive langt nu, i bag klogskabens lys skal man lave den samme kode en gang men hvor den skifter spiller.">
+    <list default="true" id="0b98fc8c-a079-4f50-b39e-d319e33234a3" name="Changes" comment="dobbelt ens vinder efter 40, det bygender at blive rodet, man vinder ikke med dobbelt en efter 40">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TerningeSpil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TerningeSpil.java" afterDir="false" />
     </list>
@@ -163,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663695911298</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="dobbelt ens vinder efter 40, det bygender at blive rodet, man vinder ikke med dobbelt en efter 40">
+      <created>1663742845819</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663742845819</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +219,7 @@
     <MESSAGE value="den færdige start opgave tænker jeg" />
     <MESSAGE value="to 1'ere funktion er lavet" />
     <MESSAGE value="dobbelt ens&#10;&#10;man kan kun slå dobbelt ens, 1 gang of man får ekstra tur ved dobbelt et. &#10;&#10;det begynder  at blive langt nu, i bag klogskabens lys skal man lave den samme kode en gang men hvor den skifter spiller." />
-    <option name="LAST_COMMIT_MESSAGE" value="dobbelt ens&#10;&#10;man kan kun slå dobbelt ens, 1 gang of man får ekstra tur ved dobbelt et. &#10;&#10;det begynder  at blive langt nu, i bag klogskabens lys skal man lave den samme kode en gang men hvor den skifter spiller." />
+    <MESSAGE value="dobbelt ens vinder efter 40, det bygender at blive rodet, man vinder ikke med dobbelt en efter 40" />
+    <option name="LAST_COMMIT_MESSAGE" value="dobbelt ens vinder efter 40, det bygender at blive rodet, man vinder ikke med dobbelt en efter 40" />
   </component>
 </project>
