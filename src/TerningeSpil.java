@@ -3,7 +3,7 @@ import java.util.Random;
 class TerningeSpil {
     public static void main( String args[] ) {
         Random rand = new Random(); //instance of random class
-        //variblerne bliver defineret tror jeg
+        //variablerne bliver defineret tror jeg
         int terningmax = 6;
         int terningmin = 1;
         int player1=0; //player 1 score
@@ -17,7 +17,7 @@ class TerningeSpil {
         //spil løkken
         outerloop: while (true){
 
-            //enter for rul
+            //tryk enter for rul
                 try{System.in.read();}
                 catch(Exception e){}
 
