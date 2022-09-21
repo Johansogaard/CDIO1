@@ -3,7 +3,7 @@ import java.util.Random;
 class TerningeSpil {
     public static void main( String args[] ) {
         Random rand = new Random(); //instance of random class
-        //variablerne bliver defineret tror jeg
+        //variablerne bliver defineret tror jeg, thats right
         int terningmax = 6;
         int terningmin = 1;
         int player1=0; //player 1 score
