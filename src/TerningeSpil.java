@@ -121,9 +121,11 @@ class TerningeSpil {
                     player2 = 0;
             }
 
+
+        }
             if ((player2>40 && terning21==terning22) ) //
                 break;
-        }}
+        }
 //vi kommer ud af spil løkken når en kommer over 40
         if ((terning21==terning22) || (pterning2==terning21+terning22 && pterning2==12))
             System.out.println("player 2 vinder med "+(player2));
