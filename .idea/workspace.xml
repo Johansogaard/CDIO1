@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b98fc8c-a079-4f50-b39e-d319e33234a3" name="Changes" comment="nu kan 2  vinde igen">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TerningeSpil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TerningeSpil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +106,7 @@
       <workItem from="1663589056386" duration="1238000" />
       <workItem from="1663594347581" duration="641000" />
       <workItem from="1663598507970" duration="6452000" />
-      <workItem from="1663754992175" duration="3117000" />
+      <workItem from="1663754992175" duration="3895000" />
     </task>
     <task id="LOCAL-00001" summary="God start på prjokt, løsning af hovedopgave tror jeg">
       <created>1663594736771</created>
@@ -191,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663762830207</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="nu kan 2  vinde igen">
+      <created>1663762907593</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1663762907593</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

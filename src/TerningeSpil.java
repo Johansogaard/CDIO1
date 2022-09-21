@@ -92,7 +92,7 @@ class TerningeSpil {
                     break;
                 pterning2=terning21+terning22;
 
-            if ((player2>40 && terning11==terning12) ) //
+            if ((player2>40 && terning21==terning22) ) //
                 break;
 
             if (terning21+terning22==2) {
@@ -112,9 +112,9 @@ class TerningeSpil {
 
                 System.out.println("spiller 2 slår "+(terning21)+" og "+(terning22)+" spiller 2 score er "+(player2));
 
-                if (terning11+terning12==pterning1 && pterning1==12)
+                if (terning21+terning22==pterning2 && pterning2==12)
                     break outerloop;
-                pterning1=terning11+terning12;
+                pterning2=terning21+terning22;
 
                 if (terning21+terning22==2) {
                     System.out.println("to 1'ere, tilbage til start");
@@ -127,7 +127,9 @@ class TerningeSpil {
                 break;
         }
 //vi kommer ud af spil løkken når en kommer over 40
-        if ((terning21==terning22) || (pterning2==terning21+terning22 && pterning2==12))
+
+
+        if ((player2>40 && terning21==terning22) || (pterning2==terning21+terning22 && pterning2==12)) //bug
             System.out.println("player 2 vinder med "+(player2));
         else
             System.out.println("player 1 vinder med "+(player1));
