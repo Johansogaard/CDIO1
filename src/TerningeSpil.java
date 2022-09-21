@@ -121,7 +121,7 @@ class TerningeSpil {
                     player2 = 0;
             }
 
-            if ((player2>40 && terning11==terning12) ) //
+            if ((player2>40 && terning21==terning22) ) //
                 break;
         }}
 //vi kommer ud af spil løkken når en kommer over 40
