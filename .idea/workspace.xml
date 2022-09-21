@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b98fc8c-a079-4f50-b39e-d319e33234a3" name="Changes" comment="dobbelt ens vinder efter 40, det bygender at blive rodet, man vinder ikke med dobbelt en efter 40">
+    <list default="true" id="0b98fc8c-a079-4f50-b39e-d319e33234a3" name="Changes" comment="dobbelt 6'er * 2 vinder hvis det virker &#10;&#10;mere test nødvendig.&#10;&#10;skal gøres smartere">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TerningeSpil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TerningeSpil.java" afterDir="false" />
     </list>
@@ -106,6 +106,7 @@
       <workItem from="1663589056386" duration="1238000" />
       <workItem from="1663594347581" duration="641000" />
       <workItem from="1663598507970" duration="6452000" />
+      <workItem from="1663754992175" duration="701000" />
     </task>
     <task id="LOCAL-00001" summary="God start på prjokt, løsning af hovedopgave tror jeg">
       <created>1663594736771</created>
@@ -170,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663742845819</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="dobbelt 6'er * 2 vinder hvis det virker &#10;&#10;mere test nødvendig.&#10;&#10;skal gøres smartere">
+      <created>1663745429894</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663745429894</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +228,7 @@
     <MESSAGE value="to 1'ere funktion er lavet" />
     <MESSAGE value="dobbelt ens&#10;&#10;man kan kun slå dobbelt ens, 1 gang of man får ekstra tur ved dobbelt et. &#10;&#10;det begynder  at blive langt nu, i bag klogskabens lys skal man lave den samme kode en gang men hvor den skifter spiller." />
     <MESSAGE value="dobbelt ens vinder efter 40, det bygender at blive rodet, man vinder ikke med dobbelt en efter 40" />
-    <option name="LAST_COMMIT_MESSAGE" value="dobbelt ens vinder efter 40, det bygender at blive rodet, man vinder ikke med dobbelt en efter 40" />
+    <MESSAGE value="dobbelt 6'er * 2 vinder hvis det virker &#10;&#10;mere test nødvendig.&#10;&#10;skal gøres smartere" />
+    <option name="LAST_COMMIT_MESSAGE" value="dobbelt 6'er * 2 vinder hvis det virker &#10;&#10;mere test nødvendig.&#10;&#10;skal gøres smartere" />
   </component>
 </project>
