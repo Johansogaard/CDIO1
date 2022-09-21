@@ -48,7 +48,7 @@ class TerningeSpil {
             }
             //dobbelt ens
             if (terning11==terning12) {
-                System.out.println("to ens, ekstra tur ");
+                System.out.println("to ens, ekstra tur! ");
                 try{System.in.read();}
                 catch(Exception e){}
 
