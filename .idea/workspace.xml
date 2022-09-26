@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b98fc8c-a079-4f50-b39e-d319e33234a3" name="Changes" comment="dobbelt ens vinder efter 40, det bygender at blive rodet, man vinder ikke med dobbelt en efter 40">
+    <list default="true" id="0b98fc8c-a079-4f50-b39e-d319e33234a3" name="Changes" comment="nu kan 2  vinde igen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TerningeSpil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TerningeSpil.java" afterDir="false" />
     </list>
@@ -24,7 +24,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,14 +34,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -106,6 +106,7 @@
       <workItem from="1663589056386" duration="1238000" />
       <workItem from="1663594347581" duration="641000" />
       <workItem from="1663598507970" duration="6452000" />
+      <workItem from="1663754992175" duration="3895000" />
     </task>
     <task id="LOCAL-00001" summary="God start på prjokt, løsning af hovedopgave tror jeg">
       <created>1663594736771</created>
@@ -170,7 +171,35 @@
       <option name="project" value="LOCAL" />
       <updated>1663742845819</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="dobbelt 6'er * 2 vinder hvis det virker &#10;&#10;mere test nødvendig.&#10;&#10;skal gøres smartere">
+      <created>1663745429894</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663745429894</updated>
+    </task>
+    <task id="LOCAL-00011" summary="dobbelt ens vinder fix">
+      <created>1663755755451</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663755755451</updated>
+    </task>
+    <task id="LOCAL-00012" summary="nu kan 2  vinde igen">
+      <created>1663762830207</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663762830207</updated>
+    </task>
+    <task id="LOCAL-00013" summary="nu kan 2  vinde igen">
+      <created>1663762907593</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1663762907593</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +216,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
@@ -205,6 +234,11 @@
             <list>
               <RecentGroup>
                 <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
                   <option value="origin/main" />
                 </option>
               </RecentGroup>
@@ -220,6 +254,9 @@
     <MESSAGE value="to 1'ere funktion er lavet" />
     <MESSAGE value="dobbelt ens&#10;&#10;man kan kun slå dobbelt ens, 1 gang of man får ekstra tur ved dobbelt et. &#10;&#10;det begynder  at blive langt nu, i bag klogskabens lys skal man lave den samme kode en gang men hvor den skifter spiller." />
     <MESSAGE value="dobbelt ens vinder efter 40, det bygender at blive rodet, man vinder ikke med dobbelt en efter 40" />
-    <option name="LAST_COMMIT_MESSAGE" value="dobbelt ens vinder efter 40, det bygender at blive rodet, man vinder ikke med dobbelt en efter 40" />
+    <MESSAGE value="dobbelt 6'er * 2 vinder hvis det virker &#10;&#10;mere test nødvendig.&#10;&#10;skal gøres smartere" />
+    <MESSAGE value="dobbelt ens vinder fix" />
+    <MESSAGE value="nu kan 2  vinde igen" />
+    <option name="LAST_COMMIT_MESSAGE" value="nu kan 2  vinde igen" />
   </component>
 </project>
