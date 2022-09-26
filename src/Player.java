@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class Player {
     //definere variabler
-    private int pl;
+    private final int pl;
     private  int score;
     private boolean doublesix;
     private boolean isWin;
@@ -16,21 +16,21 @@ public class Player {
         isWin = false;
     }
     //metode til at slå terning
-    public int slåEnTerning()
+    public int slaEnTerning()
     {
         Random rand = new Random();
-        int t1=rand.nextInt(6)+1;
+        return rand.nextInt(1,7);
 
-        return t1;
+
     }
     //metode til at tjekke for ekstra slag dobbelt 1 og 2*2 skesere i træk og om man har vundet
     public int Checkterning(int t1, int t2)
     {
         int v = 0;
-        if (t1 ==6 && t2 == 6 && doublesix == true)
+        if (t1 ==6 && t2 == 6 && doublesix)
         {
             isWin = true;
-
+            return (v);
         }
         doublesix = false;
         if (t1 == 1 && t2 == 1)
@@ -38,7 +38,7 @@ public class Player {
             System.out.println("Player " + pl+ " slog 1 og 1 og mister derfor alle sine point");
             score = 0;
         }
-        else if (t1 == t2 && doublesix != true)
+        else if (t1 == t2 )
         {
             if (score<40) {
                 v = t1;
@@ -64,8 +64,8 @@ public class Player {
             System.out.println("Spiller "+pl+" tryk enter for at slå terning");
             try{System.in.read();}
             catch(Exception e){}
-            int t1 = slåEnTerning();
-            int t2 = slåEnTerning();
+            int t1 = slaEnTerning();
+            int t2 = slaEnTerning();
             addtoscore(t1, t2);
             igen = Checkterning(t1, t2);
 
@@ -91,7 +91,7 @@ public class Player {
     //holder øje med om spilleren har vundet
     public boolean hasWon()
     {
-        if (isWin == true) {
+        if (isWin ) {
             System.out.println("Player "+pl+" vinder!");
             return true;
         }
