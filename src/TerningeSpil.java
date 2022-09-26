@@ -1,20 +1,42 @@
 
 import java.util.Random;
 class TerningeSpil {
-    public static void main( String args[] ) {
-        Random rand = new Random(); //instance of random class
-        //variblerne bliver difineret tror jeg
-        int terningmax = 6;
-        int terningmin = 1;
-        int player1=0; //player 1 score
-        int player2=0; //player 2 score
-        int terning11=0, terning12=0, terning21=0, terning22=0; //terning
-        int pterning1=0, pterning2=0;
+    public static void main(String args[]) {
 
 
+        //Laver nye instancer af player
+        Player pl1 = new Player(1);
+        Player pl2 = new Player(2);
+        //definerer variabler
+        boolean p1w = false;
+        boolean p2w = false;
         System.out.println("Hej og velkommen til spil");
         System.out.println("klik enter for at starte, og fortsætte spillet");
+        //while løkken som anvender metoden spil i player klassen
+        while (true) {
+            p1w = pl1.spil();
+            if (p1w== true)
+            {
+                break;
+            }
+            p2w = pl2.spil();
+            if (p2w == true)
+            {
+                break;
+            }
+        }
 
+
+
+        /*variblerne bliver difineret tror jeg
+        int terningmax = 6;
+        int terningmin = 1;
+        int player1 = 0; //player 1 score
+        int player2 = 0; //player 2 score
+        int terning11 = 0, terning12 = 0, terning21 = 0, terning22 = 0; //terning
+        int pterning1 = 0, pterning2 = 0;
+\*
+/*
         //spil løkken
         outerloop: while (true){
 
@@ -154,5 +176,6 @@ class TerningeSpil {
     public static int Checkterning(int t1, int t2)
     {
 
+    }*/
     }
 }
