@@ -1,19 +1,42 @@
 
 import java.util.Random;
 class TerningeSpil {
-    public static void main( String args[] ) {
-        Random rand = new Random(); //instance of random class
-        //variblerne bliver difineret tror jeg
-        int terningmax = 6;
-        int terningmin = 1;
-        int player1=0; //player 1 score
-        int player2=0; //player 2 score
-        int terning11=0, terning12=0, terning21=0, terning22=0; //terning
-        int pterning1=0, pterning2=0;
+    public static void main(String args[]) {
 
+
+        //Laver nye instancer af player
+        Player pl1 = new Player(1);
+        Player pl2 = new Player(2);
+        //definerer variabler
+        boolean p1w = false;
+        boolean p2w = false;
         System.out.println("Hej og velkommen til spil");
         System.out.println("klik enter for at starte, og fortsætte spillet");
+        //while løkken som anvender metoden spil i player klassen
+        while (true) {
+            p1w = pl1.spil();
+            if (p1w== true)
+            {
+                break;
+            }
+            p2w = pl2.spil();
+            if (p2w == true)
+            {
+                break;
+            }
+        }
 
+
+
+        /*variblerne bliver difineret tror jeg
+        int terningmax = 6;
+        int terningmin = 1;
+        int player1 = 0; //player 1 score
+        int player2 = 0; //player 2 score
+        int terning11 = 0, terning12 = 0, terning21 = 0, terning22 = 0; //terning
+        int pterning1 = 0, pterning2 = 0;
+\*
+/*
         //spil løkken
         outerloop: while (true){
 
@@ -25,10 +48,19 @@ class TerningeSpil {
             //terning11+terning12
             //spiller score bliver  opdateret og printet
 
-            terning11=rand.nextInt(terningmax)+terningmin;
-            terning12=rand.nextInt(terningmax)+terningmin;
-            player1=player1+terning11+terning12;
-            System.out.println("spiller 1 slår "+(terning11)+" og "+(terning12)+" spiller 1 score er "+(player1));
+
+            terning11=player1+slåEnTerning();
+            terning12= player1+slåEnTerning();
+            System.out.println("spiller "+ spiller+" slår "+(t1)+" og "+(t2)+" spiller 1 score er "+(point));
+
+                int t2=rand.nextInt(6)+1;
+            int sum =point+ t1 + t2;
+
+            if(t1 == t2)
+            {
+                System.out.println("Du har slået to ens og får derfor et ekstra slag");
+            }
+            return sum;
 
 
 
@@ -133,4 +165,17 @@ class TerningeSpil {
             System.out.println("player 2 vinder med "+(player2));
         else
             System.out.println("player 1 vinder med "+(player1));
-    }}
+    }
+    public static int slåEnTerning()
+    {
+        Random rand = new Random();
+        int t1=rand.nextInt(6)+1;
+
+        return t1;
+    }
+    public static int Checkterning(int t1, int t2)
+    {
+
+    }*/
+    }
+}
