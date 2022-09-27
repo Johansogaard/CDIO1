@@ -25,7 +25,7 @@ public class Test1000 {
             if (samlet == 10){res10 ++;}
             if (samlet == 11){res11 ++;}
             if (samlet == 12){res12 ++;}
-            //men det virker
+            //men det virker :)
 
         }
         System.out.println("samlet antal 2'ere: " + res2 +" procent: " + Math.ceil(res2)/10 + "%");
