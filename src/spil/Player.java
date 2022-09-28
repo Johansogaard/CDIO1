@@ -1,3 +1,5 @@
+package spil;
+
 import java.util.Random;
 
 public class Player {
@@ -35,7 +37,7 @@ public class Player {
         doublesix = false;
         if (t1 == 1 && t2 == 1)
         {
-            System.out.println("Player " + pl+ " slog 1 og 1 og mister derfor alle sine point");
+            System.out.println("spil.Player " + pl+ " slog 1 og 1 og mister derfor alle sine point");
             score = 0;
         }
         else if (t1 == t2 )
@@ -92,7 +94,7 @@ public class Player {
     public boolean hasWon()
     {
         if (isWin ) {
-            System.out.println("Player "+pl+" vinder!");
+            System.out.println("spil.Player "+pl+" vinder!");
             return true;
         }
         else {

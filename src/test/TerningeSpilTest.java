@@ -1,6 +1,8 @@
+package test;
+
 public class TerningeSpilTest {
     public static void main(String[] args) {
-        Player pl1 = new Player(1);
+        spil.Player pl1 = new spil.Player(1);
         int[] antal = new int[6];
         for (int i= 0; i < 1000; i++)
         {

@@ -1,3 +1,5 @@
+package spil;
+
 class TerningeSpil {
     public static void main(String args[]) {
 
