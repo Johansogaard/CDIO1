@@ -9,7 +9,7 @@ public class Player {
     private boolean doublesix;
     private boolean isWin;
 
-    //Constructor: setter variablers value
+    //Constructor: sætter variablers value
     public  Player (int player)
     {
        score = 0;
@@ -25,7 +25,7 @@ public class Player {
 
 
     }
-    //metode til at tjekke for ekstra slag dobbelt 1 og 2*2 skesere i træk og om man har vundet
+    //metode til at tjekke for ekstra slag, dobbelt 1, dobbelt 6 to gange i streg og om man har vundet
     public int Checkterning(int t1, int t2)
     {
         int v = 0;
