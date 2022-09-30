@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b98fc8c-a079-4f50-b39e-d319e33234a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +51,7 @@
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.uml"
   }
@@ -65,7 +62,7 @@
       <recent name="$PROJECT_DIR$/kode" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TerningeSpil">
     <configuration name="TerningSpil (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TerningSpil" />
       <module name="24_del1" />
@@ -113,9 +110,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TerningeSpil" />
         <item itemvalue="Application.TerningeSpilTest" />
         <item itemvalue="JAR Application.24_del1-1.0-SNAPSHOT.jar" />
-        <item itemvalue="Application.TerningeSpil" />
         <item itemvalue="Application.TerningSpil (4)" />
         <item itemvalue="Application.TerningSpil (3)" />
       </list>
@@ -256,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664525785949</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="java 18 til java 16">
+      <created>1664528093466</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1664528093466</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +322,8 @@
     <MESSAGE value="Har rettet i mapper og ændret navn" />
     <MESSAGE value="Indeholder alle versioner i hver sin mappe med version 1 som er den ældste til version 5 som bare hedder player inde i mappen spil som er vores sidste version der indeholder alle ekstraopgaver minus en gui" />
     <MESSAGE value="player til spiller" />
-    <option name="LAST_COMMIT_MESSAGE" value="player til spiller" />
+    <MESSAGE value="java 18 til java 16" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 18 til java 16" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
