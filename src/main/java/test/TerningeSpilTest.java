@@ -7,6 +7,7 @@ public class TerningeSpilTest {
         int[] antal = new int[6];
         int[] sum = new int[12];
         for (int i= 0; i < 1000; i++)
+        //bruger samme rulle metode som fra spillet
         {
             int t1 =pl1.slaEnTerning();
             int t2 = pl1.slaEnTerning();
