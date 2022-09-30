@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b98fc8c-a079-4f50-b39e-d319e33234a3" name="Changes" comment="Enu en push">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="0b98fc8c-a079-4f50-b39e-d319e33234a3" name="Changes" comment="Indeholder alle versioner i hver sin mappe med version 1 som er den ældste til version 5 som bare hedder player inde i mappen spil som er vores sidste version der indeholder alle ekstraopgaver minus en gui">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDIO1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/24_del1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spil/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TerningeSpil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spil/TerningeSpil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TerningeSpilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TerningeSpilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spil/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spil/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -53,14 +53,7 @@
       <recent name="$PROJECT_DIR$/kode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TerningeSpilTest">
-    <configuration name="GenerateRandom2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GenerateRandom2" />
-      <module name="24_del1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="TerningSpil (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TerningSpil" />
       <module name="24_del1" />
@@ -89,6 +82,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="24_del1-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/24_del1-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="24_del1" />
       <method v="2">
@@ -105,10 +102,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TerningeSpilTest" />
+        <item itemvalue="JAR Application.24_del1-1.0-SNAPSHOT.jar" />
         <item itemvalue="Application.TerningeSpil" />
         <item itemvalue="Application.TerningSpil (4)" />
         <item itemvalue="Application.TerningSpil (3)" />
-        <item itemvalue="Application.GenerateRandom2" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +123,7 @@
       <workItem from="1663754992175" duration="3895000" />
       <workItem from="1664286761042" duration="29000" />
       <workItem from="1664286828167" duration="55000" />
-      <workItem from="1664286908264" duration="1733000" />
+      <workItem from="1664286908264" duration="10529000" />
     </task>
     <task id="LOCAL-00001" summary="God start på prjokt, løsning af hovedopgave tror jeg">
       <created>1663594736771</created>
@@ -226,7 +223,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664285929533</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Har rettet i mapper og ændret navn">
+      <created>1664362239606</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664362239606</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Indeholder alle versioner i hver sin mappe med version 1 som er den ældste til version 5 som bare hedder player inde i mappen spil som er vores sidste version der indeholder alle ekstraopgaver minus en gui">
+      <created>1664384135857</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664384135858</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +296,12 @@
     <MESSAGE value="dobbelt ens vinder fix" />
     <MESSAGE value="nu kan 2  vinde igen" />
     <MESSAGE value="Enu en push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enu en push" />
+    <MESSAGE value="Har rettet i mapper og ændret navn" />
+    <MESSAGE value="Indeholder alle versioner i hver sin mappe med version 1 som er den ældste til version 5 som bare hedder player inde i mappen spil som er vores sidste version der indeholder alle ekstraopgaver minus en gui" />
+    <option name="LAST_COMMIT_MESSAGE" value="Indeholder alle versioner i hver sin mappe med version 1 som er den ældste til version 5 som bare hedder player inde i mappen spil som er vores sidste version der indeholder alle ekstraopgaver minus en gui" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
