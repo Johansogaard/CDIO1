@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b98fc8c-a079-4f50-b39e-d319e33234a3" name="Changes" comment="Indeholder alle versioner i hver sin mappe med version 1 som er den ældste til version 5 som bare hedder player inde i mappen spil som er vores sidste version der indeholder alle ekstraopgaver minus en gui">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_del1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/24_del1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Version1/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Version1/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Version2/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Version2/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Version3/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Version3/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Version4/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Version4/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spil/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spil/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spil/TerningeSpil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spil/TerningeSpil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/TerningeSpilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/TerningeSpilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spil/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spil/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,22 +38,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/kode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TerningeSpilTest">
+  <component name="RunManager">
     <configuration name="TerningSpil (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TerningSpil" />
       <module name="24_del1" />
